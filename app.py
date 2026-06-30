@@ -326,7 +326,7 @@ def main():
             padding: 0.3rem 0.5rem 0.2rem !important;
         }
         .app-header img {
-            width: 40px !important;
+            width: 60px !important;
             height: auto !important;
         }
         .app-header h1 {
@@ -348,7 +348,7 @@ def main():
 
     st.markdown(f"""
     <div class="app-header">
-        <img src="data:image/png;base64,{logo_b64}" alt="Logo" style="width:45px; height:auto; display:block; margin:0 auto 0.3rem;">
+        <img src="data:image/png;base64,{logo_b64}" alt="Logo" style="width:80px; height:auto; display:block; margin:0 auto 0.5rem;">
         <h1>NIN Data Protection MCQ Practice</h1>
         <p>Paste a question to find the correct answer</p>
     </div>
