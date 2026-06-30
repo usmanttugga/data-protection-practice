@@ -68,9 +68,6 @@ def main():
         padding: 0.5rem 1rem 0.2rem;
     }
     .app-header img {
-        width: 45px;
-        height: auto;
-        margin-bottom: 0.2rem;
         filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5));
         animation: pulse-glow 2s ease-in-out infinite;
     }
@@ -331,8 +328,6 @@ def main():
         .app-header img {
             width: 40px !important;
             height: auto !important;
-            display: block !important;
-            margin: 0 auto 0.15rem !important;
         }
         .app-header h1 {
             font-size: 1.25rem !important;
@@ -353,7 +348,7 @@ def main():
 
     st.markdown(f"""
     <div class="app-header">
-        <img src="data:image/png;base64,{logo_b64}" alt="Logo">
+        <img src="data:image/png;base64,{logo_b64}" alt="Logo" style="width:45px; height:auto; display:block; margin:0 auto 0.3rem;">
         <h1>NIN Data Protection MCQ Practice</h1>
         <p>Paste a question to find the correct answer</p>
     </div>
