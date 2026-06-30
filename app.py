@@ -127,36 +127,45 @@ def main():
     }
 
     /* Buttons */
-    .stButton > button {
+    button[kind="primary"],
+    div[data-testid="stHorizontalBlock"] button:first-child,
+    .stButton button {
         border-radius: 10px !important;
         font-weight: 600 !important;
         padding: 0.65rem 1.5rem !important;
         font-size: 1rem !important;
         transition: all 0.2s ease !important;
-        border: 2px solid #6366F1 !important;
+        border: 2px solid #818CF8 !important;
         color: #FFFFFF !important;
         background-color: #6366F1 !important;
         box-shadow: 0 2px 8px rgba(99,102,241,0.3) !important;
+        outline: 2px solid #818CF8 !important;
+        outline-offset: 0px !important;
     }
-    .stButton > button:hover {
+    button[kind="primary"]:hover,
+    div[data-testid="stHorizontalBlock"] button:first-child:hover,
+    .stButton button:hover {
         background-color: #4F46E5 !important;
-        border-color: #4F46E5 !important;
+        border-color: #A5B4FC !important;
+        outline-color: #A5B4FC !important;
         box-shadow: 0 4px 16px rgba(99,102,241,0.45) !important;
         transform: translateY(-1px) !important;
     }
-    .stButton > button:active {
-        transform: translateY(0) !important;
-    }
-    div[data-testid="stHorizontalBlock"] .stButton > button:last-child {
+    div[data-testid="stHorizontalBlock"] button:last-child,
+    button[kind="secondary"] {
         background-color: #1E293B !important;
-        color: #94A3B8 !important;
-        border: 2px solid #475569 !important;
+        color: #CBD5E1 !important;
+        border: 2px solid #64748B !important;
+        outline: 2px solid #64748B !important;
+        outline-offset: 0px !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
     }
-    div[data-testid="stHorizontalBlock"] .stButton > button:last-child:hover {
+    div[data-testid="stHorizontalBlock"] button:last-child:hover,
+    button[kind="secondary"]:hover {
         background-color: #334155 !important;
         color: #E2E8F0 !important;
-        border-color: #64748B !important;
+        border-color: #94A3B8 !important;
+        outline-color: #94A3B8 !important;
     }
 
     /* Answer card - Neon Lime glow */
