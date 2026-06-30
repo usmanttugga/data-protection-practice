@@ -323,10 +323,10 @@ def main():
             background-color: #1E293B !important;
         }
         .app-header {
-            padding: 0.3rem 0.5rem 0.2rem !important;
+            padding: 0.5rem 0.5rem 0.3rem !important;
         }
         .app-header img {
-            width: 60px !important;
+            width: 80px !important;
             height: auto !important;
         }
         .app-header h1 {
@@ -348,7 +348,7 @@ def main():
 
     st.markdown(f"""
     <div class="app-header">
-        <img src="data:image/png;base64,{logo_b64}" alt="Logo" style="width:80px; height:auto; display:block; margin:0 auto 0.5rem;">
+        <img src="data:image/png;base64,{logo_b64}" alt="Logo" style="width:100px; height:auto; display:block; margin:0 auto 0.8rem;">
         <h1>NIN Data Protection MCQ Practice</h1>
         <p>Paste a question to find the correct answer</p>
     </div>
