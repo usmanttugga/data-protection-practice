@@ -257,6 +257,49 @@ def main():
     div[data-testid="stExpander"] { background-color: #1E293B !important; }
     div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"] { color: #E2E8F0 !important; }
 
+    /* Force dark on ALL Streamlit elements */
+    .stApp, .stApp > div, .main, .block-container {
+        background-color: #0B0F19 !important;
+    }
+    div[data-testid="stVerticalBlock"] {
+        background-color: transparent !important;
+    }
+    section[data-testid="stSidebar"] > div {
+        background-color: #0B0F19 !important;
+    }
+    .stDeployButton {
+        display: none !important;
+    }
+    header[data-testid="stHeader"] {
+        background-color: #0B0F19 !important;
+    }
+    div[data-testid="stToolbar"] {
+        background-color: #0B0F19 !important;
+    }
+
+    /* Fix white flash on mobile taps */
+    * {
+        -webkit-tap-highlight-color: transparent !important;
+    }
+    html, body {
+        background-color: #0B0F19 !important;
+        color: #E2E8F0 !important;
+    }
+    .stApp {
+        background: #0B0F19 !important;
+    }
+
+    /* Force all expanders dark */
+    details {
+        background-color: #1E293B !important;
+    }
+    details[open] {
+        background-color: #1E293B !important;
+    }
+    details > div {
+        background-color: #1E293B !important;
+    }
+
     /* Responsive - Mobile First */
     @media (max-width: 768px) {
         .app-header h1 { font-size: 1.4rem; }
@@ -266,6 +309,17 @@ def main():
         .stTextArea textarea { padding: 0.9rem 1rem !important; font-size: 16px !important; }
         .option-row { font-size: 0.9rem; padding: 0.5rem 0.7rem; }
         .option-row.correct { font-size: 0.9rem; }
+
+        /* Force dark on mobile */
+        * {
+            background-color: inherit !important;
+        }
+        .stApp, .block-container, main, section {
+            background-color: #0B0F19 !important;
+        }
+        details, details[open], details > div, details[open] > div {
+            background-color: #1E293B !important;
+        }
     }
     </style>
     """, unsafe_allow_html=True)
