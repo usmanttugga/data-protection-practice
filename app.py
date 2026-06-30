@@ -66,6 +66,10 @@ def main():
     .app-header {
         text-align: center;
         padding: 0.5rem 1rem 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .app-header img {
         filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5));
@@ -83,6 +87,8 @@ def main():
         padding: 0;
         letter-spacing: -0.02em;
         line-height: 1.2;
+        text-align: center;
+        width: 100%;
     }
     .app-header p {
         color: #94A3B8;
@@ -90,6 +96,8 @@ def main():
         margin: 0;
         padding: 0;
         line-height: 1.2;
+        text-align: center;
+        width: 100%;
     }
 
     /* Text area - Deep Slate */
