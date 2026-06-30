@@ -58,18 +58,18 @@ def main():
     .stApp > header { background-color: #0B0F19 !important; }
     .main .block-container {
         background-color: #0B0F19 !important;
-        padding-top: 1rem !important;
+        padding-top: 0.5rem !important;
     }
 
     /* Header */
     .app-header {
         text-align: center;
-        padding: 2rem 1rem 1.5rem;
+        padding: 1rem 1rem 0.5rem;
     }
     .app-header img {
         width: 50px;
         height: auto;
-        margin-bottom: 0.6rem;
+        margin-bottom: 0.3rem;
         filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5));
         animation: pulse-glow 2s ease-in-out infinite;
     }
@@ -79,14 +79,14 @@ def main():
     }
     .app-header h1 {
         color: #E2E8F0;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 700;
-        margin: 0 0 0.4rem;
+        margin: 0 0 0.2rem;
         letter-spacing: -0.02em;
     }
     .app-header p {
         color: #94A3B8;
-        font-size: 1rem;
+        font-size: 0.95rem;
         margin: 0;
     }
 
