@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "What is personal data?",
+    "options": {"a": "Only financial records", "b": "Any information relating to an identified or identifiable person", "c": "Only government documents", "d": "Only names"},
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Biometric data (fingerprints, facial image) in NIN is:",
+    "options": {"a": "Non-sensitive", "b": "Sensitive (special category) personal data", "c": "Public data", "d": "Not personal data"},
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "In NIN enrollment, NIMC is mainly the:",
+    "options": {"a": "Data Subject", "b": "Data Controller", "c": "Data Processor only", "d": "Regulator"},
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "Enrollment agents usually act as:",
+    "options": {"a": "Data Controllers", "b": "Data Processors", "c": "Data Subjects", "d": "Regulators"},
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "The main law for data protection in Nigeria is:",
+    "options": {"a": "NIMC Act only", "b": "NDPA 2023", "c": "Criminal Code", "d": "Company Law"},
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "Data protection principles include all except:",
+    "options": {"a": "Lawfulness and fairness", "b": "Data maximisation", "c": "Purpose limitation", "d": "Accountability"},
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "Accountability means:",
+    "options": {"a": "Ignoring rules", "b": "Demonstrating compliance", "c": "Sharing all data", "d": "Deleting everything"},
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Lawful bases for processing include:",
+    "options": {"a": "Only consent", "b": "Consent, contract, legal obligation, etc.", "c": "Only public interest", "d": "Only money"},
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": "Consent must be:",
+    "options": {"a": "Forced", "b": "Freely given, specific, informed and unambiguous", "c": "Assumed", "d": "Verbal only"},
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "For sensitive biometric data, consent should be:",
+    "options": {"a": "Implied", "b": "Explicit", "c": "Not needed", "d": "Optional"},
+    "answer": "b"
+  },
+  {
+    "id": 11,
+    "question": "Right to be informed means:",
+    "options": {"a": "Hide processing details", "b": "Provide clear privacy notice", "c": "Tell only after processing", "d": "No information needed"},
+    "answer": "b"
+  },
+  {
+    "id": 12,
+    "question": "Data subjects have the right to:",
+    "options": {"a": "Only access", "b": "Access, rectification, erasure, etc.", "c": "Only erasure", "d": "No rights"},
+    "answer": "b"
+  },
+  {
+    "id": 13,
+    "question": "A Data Protection Impact Assessment (DPIA) is required for:",
+    "options": {"a": "All processing", "b": "High-risk processing (e.g. large-scale biometrics)", "c": "No processing", "d": "Only financial data"},
+    "answer": "b"
+  },
+  {
+    "id": 14,
+    "question": "Data minimisation means:",
+    "options": {"a": "Collect as much as possible", "b": "Collect only what is necessary", "c": "Delete nothing", "d": "Share widely"},
+    "answer": "b"
+  },
+  {
+    "id": 15,
+    "question": "Storage limitation means:",
+    "options": {"a": "Keep data forever", "b": "Keep data only as long as needed", "c": "Store in open files", "d": "Duplicate everywhere"},
+    "answer": "b"
+  },
+  {
+    "id": 16,
+    "question": "A personal data breach is:",
+    "options": {"a": "Any loss, theft, or unauthorised access to personal data", "b": "Only hacking", "c": "Only paper loss", "d": "Only minor mistakes"},
+    "answer": "a"
+  },
+  {
+    "id": 17,
+    "question": "Breach notification to NDPC should be:",
+    "options": {"a": "Never", "b": "Without undue delay (where feasible within 72 hours)", "c": "After one month", "d": "Only if asked"},
+    "answer": "b"
+  },
+  {
+    "id": 18,
+    "question": "Agents must report suspected breaches:",
+    "options": {"a": "Only to friends", "b": "Immediately to supervisor/NIMC", "c": "After one week", "d": "Never"},
+    "answer": "b"
+  },
+  {
+    "id": 19,
+    "question": "Encryption is used to:",
+    "options": {"a": "Make data slower", "b": "Protect data confidentiality", "c": "Delete data", "d": "Share data"},
+    "answer": "b"
+  },
+  {
+    "id": 20,
+    "question": "Access control principle:",
+    "options": {"a": "Give everyone full access", "b": "Least privilege (only needed access)", "c": "Share passwords", "d": "No passwords"},
+    "answer": "b"
+  },
+  {
+    "id": 21,
+    "question": "Purpose limitation means data must be used for:",
+    "options": {"a": "Any purpose", "b": "Specified, explicit, legitimate purposes", "c": "Marketing only", "d": "Selling"},
+    "answer": "b"
+  },
+  {
+    "id": 22,
+    "question": "Accuracy principle requires:",
+    "options": {"a": "Allow inaccurate data", "b": "Keep data accurate and up-to-date", "c": "Ignore errors", "d": "Add false information"},
+    "answer": "b"
+  },
+  {
+    "id": 23,
+    "question": "Confidentiality means:",
+    "options": {"a": "Share with everyone", "b": "Protect data from unauthorised disclosure", "c": "Post online", "d": "Ignore security"},
+    "answer": "b"
+  },
+  {
+    "id": 24,
+    "question": "Agents should obtain consent:",
+    "options": {"a": "By forcing", "b": "Through clear affirmative action with full information", "c": "Without explanation", "d": "Only verbally"},
+    "answer": "b"
+  },
+  {
+    "id": 25,
+    "question": "Children's data requires:",
+    "options": {"a": "No protection", "b": "Extra care and often parental consent", "c": "Same as adults", "d": "Less protection"},
+    "answer": "b"
+  },
+  {
+    "id": 26,
+    "question": "Right to rectification allows:",
+    "options": {"a": "Only deletion", "b": "Correction of inaccurate data", "c": "No change", "d": "Adding wrong data"},
+    "answer": "b"
+  },
+  {
+    "id": 27,
+    "question": "Right to erasure (be forgotten) applies when:",
+    "options": {"a": "Data is still needed", "b": "Consent withdrawn and no other basis", "c": "Always", "d": "Never"},
+    "answer": "b"
+  },
+  {
+    "id": 28,
+    "question": "Data subject requests should be handled:",
+    "options": {"a": "After 6 months", "b": "Without undue delay (usually 1 month)", "c": "Only if easy", "d": "Ignore"},
+    "answer": "b"
+  },
+  {
+    "id": 29,
+    "question": "Fees for data subject requests are:",
+    "options": {"a": "Always charged", "b": "Generally free (unless excessive)", "c": "Mandatory", "d": "Very high"},
+    "answer": "b"
+  },
+  {
+    "id": 30,
+    "question": "Automated decision making:",
+    "options": {"a": "Has no restrictions", "b": "Data subjects have rights against solely automated decisions with significant effects", "c": "Always allowed", "d": "Preferred"},
+    "answer": "b"
+  },
+  {
+    "id": 31,
+    "question": "Privacy by Design means:",
+    "options": {"a": "Add protection later", "b": "Integrate data protection from the start", "c": "Ignore privacy", "d": "Only at the end"},
+    "answer": "b"
+  },
+  {
+    "id": 32,
+    "question": "DPO is required for:",
+    "options": {"a": "All small entities", "b": "Controllers/processors of major importance", "c": "Only agents", "d": "No one"},
+    "answer": "b"
+  },
+  {
+    "id": 33,
+    "question": "NDPC is:",
+    "options": {"a": "A bank", "b": "The data protection regulator", "c": "An enrollment center", "d": "A court"},
+    "answer": "b"
+  },
+  {
+    "id": 34,
+    "question": "Cross-border transfer of data:",
+    "options": {"a": "Always free", "b": "Requires adequate safeguards", "c": "Not allowed", "d": "No rules"},
+    "answer": "b"
+  },
+  {
+    "id": 35,
+    "question": "Record of Processing Activities (RoPA) must be kept by:",
+    "options": {"a": "Only agents", "b": "Controllers and processors (where applicable)", "c": "Data subjects", "d": "Public"},
+    "answer": "b"
+  },
+  {
+    "id": 36,
+    "question": "NIMC database access without authorisation is:",
+    "options": {"a": "Allowed", "b": "Prohibited", "c": "Encouraged", "d": "Optional"},
+    "answer": "b"
+  },
+  {
+    "id": 37,
+    "question": "Agents must use:",
+    "options": {"a": "Personal phones", "b": "Only approved secure devices", "c": "Any device", "d": "Borrowed laptops"},
+    "answer": "b"
+  },
+  {
+    "id": 38,
+    "question": "Physical documents should be:",
+    "options": {"a": "Left open", "b": "Stored securely with limited access", "c": "Given to anyone", "d": "Thrown away"},
+    "answer": "b"
+  },
+  {
+    "id": 39,
+    "question": "When an enrollee refuses consent:",
+    "options": {"a": "Force them", "b": "Respect and document", "c": "Ignore refusal", "d": "Cancel enrollment always"},
+    "answer": "b"
+  },
+  {
+    "id": 40,
+    "question": "Lost device with data:",
+    "options": {"a": "Ignore", "b": "Report as potential breach immediately", "c": "Wait 1 week", "d": "Sell it"},
+    "answer": "b"
+  },
+  {
+    "id": 41,
+    "question": "Data accuracy during enrollment:",
+    "options": {"a": "Not important", "b": "Verify and ensure correctness", "c": "Add any information", "d": "Guess"},
+    "answer": "b"
+  },
+  {
+    "id": 42,
+    "question": "Sharing NIN data informally:",
+    "options": {"a": "Allowed", "b": "Prohibited (potential breach)", "c": "Encouraged", "d": "Only with friends"},
+    "answer": "b"
+  },
+  {
+    "id": 43,
+    "question": "Vulnerable persons (elderly/disabled):",
+    "options": {"a": "Ignore needs", "b": "Provide extra assistance and clear communication", "c": "Rush them", "d": "Deny service"},
+    "answer": "b"
+  },
+  {
+    "id": 44,
+    "question": "Training on data protection for agents is:",
+    "options": {"a": "Optional", "b": "Important and ongoing", "c": "Not needed", "d": "Only once"},
+    "answer": "b"
+  },
+  {
+    "id": 45,
+    "question": "Marketing use of enrollment data:",
+    "options": {"a": "Always allowed", "b": "Requires specific lawful basis/consent", "c": "Preferred", "d": "Free for all"},
+    "answer": "b"
+  },
+  {
+    "id": 46,
+    "question": "Anonymisation makes data:",
+    "options": {"a": "Still identifiable", "b": "Irreversibly non-identifiable", "c": "Easier to share wrongly", "d": "Temporary"},
+    "answer": "b"
+  },
+  {
+    "id": 47,
+    "question": "Pseudonymisation:",
+    "options": {"a": "Fully anonymous", "b": "Reversible with additional key", "c": "Same as encryption", "d": "Not useful"},
+    "answer": "b"
+  },
+  {
+    "id": 48,
+    "question": "Integrity and confidentiality is also called:",
+    "options": {"a": "Security principle", "b": "Maximisation", "c": "Deletion", "d": "Sharing"},
+    "answer": "a"
+  },
+  {
+    "id": 49,
+    "question": "NDPA applies to:",
+    "options": {"a": "Only paper records", "b": "Processing of personal data in Nigeria or affecting Nigerians", "c": "Only NIMC", "d": "Foreigners only"},
+    "answer": "b"
+  },
+  {
+    "id": 50,
+    "question": "Penalties for violation can include:",
+    "options": {"a": "Nothing", "b": "Fines and sanctions", "c": "Rewards", "d": "Promotion"},
+    "answer": "b"
+  },
+  {
+    "id": 51,
+    "question": "Privacy notice must be:",
+    "options": {"a": "Complex legal language", "b": "Clear and accessible", "c": "Hidden", "d": "After collection"},
+    "answer": "b"
+  },
+  {
+    "id": 52,
+    "question": "Data processors must follow:",
+    "options": {"a": "Own rules", "b": "Controller's instructions and Data Processing Agreement", "c": "No agreement needed", "d": "Verbal only"},
+    "answer": "b"
+  },
+  {
+    "id": 53,
+    "question": "National security can allow:",
+    "options": {"a": "No data use", "b": "Some data sharing without consent in specified cases", "c": "All data public", "d": "Deletion"},
+    "answer": "b"
+  },
+  {
+    "id": 54,
+    "question": "Agents should never:",
+    "options": {"a": "Verify identity", "b": "Disclose data without authorisation", "c": "Collect necessary data", "d": "Report issues"},
+    "answer": "b"
+  },
+  {
+    "id": 55,
+    "question": "Correction of NIN data:",
+    "options": {"a": "Free always", "b": "Follow official NIMC verified process", "c": "Agent can change freely", "d": "Not possible"},
+    "answer": "b"
+  },
+  {
+    "id": 56,
+    "question": "Device security includes:",
+    "options": {"a": "Leaving logged in", "b": "Strong passwords, logout after use, updates", "c": "Sharing passwords", "d": "Old software"},
+    "answer": "b"
+  },
+  {
+    "id": 57,
+    "question": "Incident response starts with:",
+    "options": {"a": "Ignore", "b": "Identify, contain, report", "c": "Delete evidence", "d": "Tell public"},
+    "answer": "b"
+  },
+  {
+    "id": 58,
+    "question": "Fairness means processing must not be:",
+    "options": {"a": "Transparent", "b": "Unfair or discriminatory", "c": "Lawful", "d": "Secure"},
+    "answer": "b"
+  },
+  {
+    "id": 59,
+    "question": "Lawful processing without consent is possible under:",
+    "options": {"a": "Only one basis", "b": "Legal obligation or public task (e.g. NIMC mandate)", "c": "Never", "d": "Marketing"},
+    "answer": "b"
+  },
+  {
+    "id": 60,
+    "question": "Right to object is stronger for:",
+    "options": {"a": "All processing", "b": "Direct marketing", "c": "No processing", "d": "Legal obligation"},
+    "answer": "b"
+  },
+  {
+    "id": 61,
+    "question": "High risk processing requires:",
+    "options": {"a": "No assessment", "b": "DPIA", "c": "Only consent", "d": "Deletion"},
+    "answer": "b"
+  },
+  {
+    "id": 62,
+    "question": "Registration with NDPC is mandatory for:",
+    "options": {"a": "All agents", "b": "Entities of major importance", "c": "Small shops only", "d": "None"},
+    "answer": "b"
+  },
+  {
+    "id": 63,
+    "question": "Data portability allows:",
+    "options": {"a": "No transfer", "b": "Receiving data in structured format (where applicable)", "c": "Only paper", "d": "Deletion"},
+    "answer": "b"
+  },
+  {
+    "id": 64,
+    "question": "Agents must maintain:",
+    "options": {"a": "No records", "b": "Professionalism and confidentiality", "c": "Public posts", "d": "Gossip"},
+    "answer": "b"
+  },
+  {
+    "id": 65,
+    "question": "Biometric data is unique because:",
+    "options": {"a": "It can be easily changed", "b": "It is permanent and sensitive", "c": "It is not personal", "d": "Low risk"},
+    "answer": "b"
+  },
+  {
+    "id": 66,
+    "question": "Consent withdrawal:",
+    "options": {"a": "Has no effect", "b": "Stops consent-based processing", "c": "Increases data", "d": "Mandatory forever"},
+    "answer": "b"
+  },
+  {
+    "id": 67,
+    "question": "Secure disposal of documents means:",
+    "options": {"a": "Throw in bin", "b": "Shred or use approved secure method", "c": "Give away", "d": "Scan and keep"},
+    "answer": "b"
+  },
+  {
+    "id": 68,
+    "question": "Phishing is:",
+    "options": {"a": "Safe", "b": "A social engineering attack to steal credentials", "c": "Training method", "d": "Encryption"},
+    "answer": "b"
+  },
+  {
+    "id": 69,
+    "question": "NIMC privacy policy emphasises:",
+    "options": {"a": "Open sharing", "b": "Security, consent where needed, and lawful use", "c": "No protection", "d": "Selling data"},
+    "answer": "b"
+  },
+  {
+    "id": 70,
+    "question": "Agents should escalate rights requests to:",
+    "options": {"a": "Public", "b": "NIMC/supervisor/DPO", "c": "Ignore", "d": "Friends"},
+    "answer": "b"
+  },
+  {
+    "id": 71,
+    "question": "Data of deceased persons:",
+    "options": {"a": "No rules", "b": "Handled per legal/next of kin rules", "c": "Public", "d": "Deleted immediately"},
+    "answer": "b"
+  },
+  {
+    "id": 72,
+    "question": "Remote enrollment needs:",
+    "options": {"a": "Less security", "b": "Strong identity verification and secure transmission", "c": "No consent", "d": "Open WiFi"},
+    "answer": "b"
+  },
+  {
+    "id": 73,
+    "question": "Data ethics goes:",
+    "options": {"a": "Against law", "b": "Beyond minimum compliance to responsible practices", "c": "Only profit", "d": "Ignore rights"},
+    "answer": "b"
+  },
+  {
+    "id": 74,
+    "question": "Late registration with NDPC:",
+    "options": {"a": "Free", "b": "May attract penalties", "c": "Encouraged", "d": "Not possible"},
+    "answer": "b"
+  },
+  {
+    "id": 75,
+    "question": "Main goal of data protection training:",
+    "options": {"a": "Waste time", "b": "Ensure compliance and protect individuals", "c": "Marketing", "d": "Entertainment"},
+    "answer": "b"
+  },
+  {
+    "id": 76,
+    "question": "Unauthorised access to NIN database is:",
+    "options": {"a": "Allowed for agents", "b": "Prohibited by law", "c": "Free", "d": "Optional"},
+    "answer": "b"
+  },
+  {
+    "id": 77,
+    "question": "Transparency requires:",
+    "options": {"a": "Secrecy", "b": "Clear communication to data subjects", "c": "No notice", "d": "After breach only"},
+    "answer": "b"
+  },
+  {
+    "id": 78,
+    "question": "Processors of major importance must:",
+    "options": {"a": "Do nothing", "b": "Register and appoint DPO where required", "c": "Only collect", "d": "Share freely"},
+    "answer": "b"
+  },
+  {
+    "id": 79,
+    "question": "In case of conflict between laws:",
+    "options": {"a": "Ignore NDPA", "b": "NDPA provides overarching data protection framework", "c": "NIMC Act ignored", "d": "No protection"},
+    "answer": "b"
+  },
+  {
+    "id": 80,
+    "question": "Best practice for passwords:",
+    "options": {"a": "Simple and shared", "b": "Strong, unique, changed regularly + MFA", "c": "Same for all", "d": "Written on paper"},
+    "answer": "b"
+  },
+  {
+    "id": 81,
+    "question": "An enrollee complains about data use. Agent should:",
+    "options": {"a": "Argue", "b": "Listen, document and escalate", "c": "Delete data", "d": "Ignore"},
+    "answer": "b"
+  },
+  {
+    "id": 82,
+    "question": "Using enrollment data for another purpose:",
+    "options": {"a": "Always ok", "b": "Requires new lawful basis", "c": "Preferred", "d": "Free"},
+    "answer": "b"
+  },
+  {
+    "id": 83,
+    "question": "Physical security at center includes:",
+    "options": {"a": "Open doors", "b": "Controlled access and notices", "c": "No locks", "d": "Public viewing"},
+    "answer": "b"
+  },
+  {
+    "id": 84,
+    "question": "Accuracy helps prevent:",
+    "options": {"a": "Good service", "b": "Identity fraud and errors", "c": "Speed", "d": "More data"},
+    "answer": "b"
+  },
+  {
+    "id": 85,
+    "question": "Breach containing biometrics is:",
+    "options": {"a": "Low risk", "b": "High risk to rights and freedoms", "c": "Not a breach", "d": "Minor"},
+    "answer": "b"
+  },
+  {
+    "id": 86,
+    "question": "Agents must verify identity:",
+    "options": {"a": "Never", "b": "Using approved secure methods", "c": "By guess", "d": "Ask friends"},
+    "answer": "b"
+  },
+  {
+    "id": 87,
+    "question": "Data subject vulnerability index considers:",
+    "options": {"a": "Everyone same", "b": "Children, elderly, disabled need extra care", "c": "Only rich", "d": "No one"},
+    "answer": "b"
+  },
+  {
+    "id": 88,
+    "question": "GAID provides:",
+    "options": {"a": "No guidance", "b": "Detailed implementation directives for NDPA", "c": "Only fines", "d": "Marketing"},
+    "answer": "b"
+  },
+  {
+    "id": 89,
+    "question": "Continuous improvement means:",
+    "options": {"a": "Stop learning", "b": "Regular training and updates", "c": "One time only", "d": "Ignore changes"},
+    "answer": "b"
+  },
+  {
+    "id": 90,
+    "question": "Selling or unauthorised disclosure of NIN data:",
+    "options": {"a": "Allowed", "b": "Serious violation", "c": "Normal", "d": "Encouraged"},
+    "answer": "b"
+  },
+  {
+    "id": 91,
+    "question": "Consent must be:",
+    "options": {"a": "Bundled with terms", "b": "Granular and separate", "c": "Assumed silence", "d": "Forced signature"},
+    "answer": "b"
+  },
+  {
+    "id": 92,
+    "question": "Right to restriction applies when:",
+    "options": {"a": "Data is accurate", "b": "Accuracy contested or other specific grounds", "c": "No request", "d": "Always delete"},
+    "answer": "b"
+  },
+  {
+    "id": 93,
+    "question": "Major importance entities process:",
+    "options": {"a": "Very few subjects", "b": "Large number or significant data", "c": "Only paper", "d": "None"},
+    "answer": "b"
+  },
+  {
+    "id": 94,
+    "question": "Agent's core duty:",
+    "options": {"a": "Maximise collection", "b": "Protect data and respect rights while performing enrollment", "c": "Speed only", "d": "Ignore privacy"},
+    "answer": "b"
+  },
+  {
+    "id": 95,
+    "question": "Updating software and patches:",
+    "options": {"a": "Optional", "b": "Important for security", "c": "Not needed", "d": "Harmful"},
+    "answer": "b"
+  },
+  {
+    "id": 96,
+    "question": "Documentation of consent helps prove:",
+    "options": {"a": "Nothing", "b": "Compliance", "c": "Violation", "d": "Marketing"},
+    "answer": "b"
+  },
+  {
+    "id": 97,
+    "question": "National Identity Database must be protected under:",
+    "options": {"a": "NIMC Act and NDPA", "b": "Only company policy", "c": "No law", "d": "Public domain"},
+    "answer": "a"
+  },
+  {
+    "id": 98,
+    "question": "Fair processing includes:",
+    "options": {"a": "Discrimination", "b": "Lawful, transparent and non-discriminatory", "c": "Secret", "d": "Unlimited"},
+    "answer": "b"
+  },
+  {
+    "id": 99,
+    "question": "In all processing, agents should apply:",
+    "options": {"a": "Data maximisation", "b": "Data protection principles", "c": "No rules", "d": "Only speed"},
+    "answer": "b"
+  },
+  {
+    "id": 100,
+    "question": "The ultimate goal for NIN agents regarding data protection is to:",
+    "options": {"a": "Avoid responsibility", "b": "Build trust through compliance and protection of enrollees' privacy", "c": "Collect maximum data", "d": "Share freely"},
+    "answer": "b"
+  }
+]
