@@ -133,13 +133,14 @@ def main():
         padding: 0.65rem 1.5rem !important;
         font-size: 1rem !important;
         transition: all 0.2s ease !important;
-        border: none !important;
+        border: 2px solid #6366F1 !important;
         color: #FFFFFF !important;
         background-color: #6366F1 !important;
         box-shadow: 0 2px 8px rgba(99,102,241,0.3) !important;
     }
     .stButton > button:hover {
         background-color: #4F46E5 !important;
+        border-color: #4F46E5 !important;
         box-shadow: 0 4px 16px rgba(99,102,241,0.45) !important;
         transform: translateY(-1px) !important;
     }
@@ -149,12 +150,13 @@ def main():
     div[data-testid="stHorizontalBlock"] .stButton > button:last-child {
         background-color: #1E293B !important;
         color: #94A3B8 !important;
-        border: 1px solid #334155 !important;
+        border: 2px solid #475569 !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
     }
     div[data-testid="stHorizontalBlock"] .stButton > button:last-child:hover {
         background-color: #334155 !important;
         color: #E2E8F0 !important;
+        border-color: #64748B !important;
     }
 
     /* Answer card - Neon Lime glow */
