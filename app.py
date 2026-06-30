@@ -190,41 +190,6 @@ def main():
         font-weight: 500;
     }
 
-    /* Question detail card */
-    .question-card {
-        background: #0B0F19;
-        border-radius: 10px;
-        padding: 1rem 1.2rem;
-        margin-bottom: 0.8rem;
-        border: 1px solid #334155;
-    }
-    .question-card .q-num {
-        color: #6366F1;
-        font-weight: 700;
-    }
-    .question-card .q-text {
-        color: #E2E8F0;
-        font-weight: 500;
-    }
-
-    /* Options */
-    .option-row {
-        padding: 0.6rem 0.8rem;
-        border-radius: 8px;
-        margin-bottom: 0.4rem;
-        font-size: 0.95rem;
-        color: #CBD5E1;
-        background: #0B0F19;
-        border: 1px solid #334155;
-    }
-    .option-row.correct {
-        background: rgba(34, 197, 94, 0.1);
-        border-color: #22C55E;
-        color: #22C55E;
-        font-weight: 600;
-        box-shadow: 0 0 10px rgba(34, 197, 94, 0.1);
-    }
-
     /* Browse section */
     .stExpander {
         border-radius: 10px !important;
@@ -352,16 +317,12 @@ def main():
             """, unsafe_allow_html=True)
 
             with st.expander("View full question details"):
-                st.markdown(f"""
-                <div class="question-card">
-                    <span class="q-num">Q{matched_question['id']}.</span>
-                    <span class="q-text"> {matched_question['question']}</span>
-                </div>
-                """, unsafe_allow_html=True)
+                st.info(f"**Q{matched_question['id']}.** {matched_question['question']}")
                 for key, val in matched_question["options"].items():
-                    css_class = "option-row correct" if key == correct_option else "option-row"
-                    check = "  ✅" if key == correct_option else ""
-                    st.markdown(f'<div class="{css_class}"><strong>{key})</strong> {val}{check}</div>', unsafe_allow_html=True)
+                    if key == correct_option:
+                        st.success(f"**{key})** {val}  ✅")
+                    else:
+                        st.write(f"**{key})** {val}")
                 st.caption(f"Match confidence: {score:.0f}%")
         else:
             st.markdown("""
@@ -381,9 +342,10 @@ def main():
             correct_text = q["options"][correct_option]
             with st.expander(f"Q{q['id']}: {q['question'][:80]}..."):
                 for key, val in q["options"].items():
-                    css_class = "option-row correct" if key == correct_option else "option-row"
-                    check = "  ✅" if key == correct_option else ""
-                    st.markdown(f'<div class="{css_class}"><strong>{key})</strong> {val}{check}</div>', unsafe_allow_html=True)
+                    if key == correct_option:
+                        st.success(f"**{key})** {val}  ✅")
+                    else:
+                        st.write(f"**{key})** {val}")
 
 if __name__ == "__main__":
     main()
