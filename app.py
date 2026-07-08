@@ -48,12 +48,9 @@ def main():
 
     st.markdown("""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
     /* Global - Obsidian Night */
     .stApp {
         background-color: #0B0F19 !important;
-        font-family: 'Inter', sans-serif !important;
     }
     .stApp > header { background-color: #0B0F19 !important; }
     .main .block-container {
@@ -73,11 +70,6 @@ def main():
     }
     .app-header img {
         filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5));
-        animation: pulse-glow 2s ease-in-out infinite;
-    }
-    @keyframes pulse-glow {
-        0%, 100% { filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5)); }
-        50% { filter: drop-shadow(0 0 20px rgba(99, 102, 241, 0.8)); }
     }
     .app-header h1 {
         color: #E2E8F0;
@@ -127,45 +119,19 @@ def main():
     }
 
     /* Buttons */
-    button[kind="primary"],
-    div[data-testid="stHorizontalBlock"] button:first-child,
-    .stButton button {
+    .stButton > button {
         border-radius: 10px !important;
         font-weight: 600 !important;
         padding: 0.65rem 1.5rem !important;
         font-size: 1rem !important;
-        transition: all 0.2s ease !important;
         border: 2px solid #818CF8 !important;
         color: #FFFFFF !important;
         background-color: #6366F1 !important;
-        box-shadow: 0 2px 8px rgba(99,102,241,0.3) !important;
-        outline: 2px solid #818CF8 !important;
-        outline-offset: 0px !important;
     }
-    button[kind="primary"]:hover,
-    div[data-testid="stHorizontalBlock"] button:first-child:hover,
-    .stButton button:hover {
-        background-color: #4F46E5 !important;
-        border-color: #A5B4FC !important;
-        outline-color: #A5B4FC !important;
-        box-shadow: 0 4px 16px rgba(99,102,241,0.45) !important;
-        transform: translateY(-1px) !important;
-    }
-    div[data-testid="stHorizontalBlock"] button:last-child,
-    button[kind="secondary"] {
+    div[data-testid="stHorizontalBlock"] .stButton > button:last-child {
         background-color: #1E293B !important;
         color: #CBD5E1 !important;
         border: 2px solid #64748B !important;
-        outline: 2px solid #64748B !important;
-        outline-offset: 0px !important;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
-    }
-    div[data-testid="stHorizontalBlock"] button:last-child:hover,
-    button[kind="secondary"]:hover {
-        background-color: #334155 !important;
-        color: #E2E8F0 !important;
-        border-color: #94A3B8 !important;
-        outline-color: #94A3B8 !important;
     }
 
     /* Answer card - Neon Lime glow */
@@ -323,44 +289,11 @@ def main():
 
     /* Responsive - Mobile First */
     @media (max-width: 768px) {
-        .app-header h1 { font-size: 1.4rem; }
-        .app-header p { font-size: 0.9rem; }
-        .answer-card { padding: 1.2rem; }
-        .answer-text { font-size: 1rem; }
-        .stTextArea textarea { padding: 0.9rem 1rem !important; font-size: 16px !important; }
-        .option-row { font-size: 0.9rem; padding: 0.5rem 0.7rem; }
-        .option-row.correct { font-size: 0.9rem; }
-
-        /* Force dark on mobile */
-        * {
-            background-color: inherit !important;
-        }
-        .stApp, .block-container, main, section {
-            background-color: #0B0F19 !important;
-        }
-        details, details[open], details > div, details[open] > div {
-            background-color: #1E293B !important;
-        }
-        .app-header {
-            padding: 0.5rem 0.5rem 0.3rem !important;
-        }
-        .app-header img {
-            width: 80px !important;
-            height: auto !important;
-        }
-        .app-header h1 {
-            font-size: 1.25rem !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-        .app-header p {
-            font-size: 0.85rem !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-        .block-container {
-            padding-top: 2rem !important;
-        }
+        .app-header h1 { font-size: 1.25rem; }
+        .app-header p { font-size: 0.85rem; }
+        .app-header img { width: 80px; }
+        .block-container { padding-top: 2rem !important; }
+        .stTextArea textarea { font-size: 16px !important; }
     }
     </style>
     """, unsafe_allow_html=True)
